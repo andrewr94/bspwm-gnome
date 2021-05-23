@@ -3,8 +3,8 @@
 #
 
 INSTALL = install
-DESTDIR ?= /
-PREFIX  ?= $(DESTDIR)/usr
+DESTDIR ?= /usr
+PREFIX  ?= $(DESTDIR)
 
 PATH_BSPWM_GNOME = $(PREFIX)/bin/bspwm-gnome
 PATH_BSPWM_GNOME_DESKTOP = $(PREFIX)/share/applications/bspwm-gnome.desktop
